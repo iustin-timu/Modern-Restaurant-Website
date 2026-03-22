@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rustic Table – Modern Bistro</title>
+
+  <!-- Simple modern font (easy to swap if you want) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">Rustic<span>Table</span></a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Modern European Bistro • Suceava</p>
+          <h1>Elevated comfort food, crafted with local ingredients.</h1>
+          <p class="hero-text">
+            Enjoy seasonal dishes, wood‑fired favorites, and a carefully curated wine list
+            in a warm, intimate setting at Rustic Table.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn primary-btn">View menu</a>
+            <a href="#contact" class="btn ghost-btn">Reserve</a>
+          </div>
+          <p class="hero-note">Open Tuesday – Sunday • Walk‑ins welcome</p>
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-photo"></div>
+          <div class="hero-card">
+            <p class="hero-card-title">Tonight’s highlights</p>
+            <ul>
+              <li>Truffle mushroom risotto</li>
+              <li>Slow‑roasted beef short ribs</li>
+              <li>Citrus cheesecake with berry coulis</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container section-inner about-inner">
+        <div class="about-text">
+          <p class="section-eyebrow">About us</p>
+          <h2>Neighborhood bistro with a seasonal soul.</h2>
+          <p>
+            At Rustic Table, we believe memorable meals start with quality ingredients
+            and genuine hospitality. Our chefs work closely with local farmers and
+            producers to design a menu that changes with the seasons.
+          </p>
+          <p>
+            Whether you are joining us for a quick lunch, a relaxed dinner, or a special
+            celebration, our team is here to make every visit feel effortless and warm.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <h3>Fresh & local</h3>
+              <p>We source produce, meats, and cheeses from trusted local partners.</p>
+            </div>
+            <div class="about-highlight">
+              <h3>Made from scratch</h3>
+              <p>Every sauce, stock, and dessert is prepared daily in our kitchen.</p>
+            </div>
+            <div class="about-highlight">
+              <h3>Thoughtful service</h3>
+              <p>Our staff will gladly guide you through the menu and pairings.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <div class="about-photo about-photo-main"></div>
+          <div class="about-photo about-photo-secondary"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu">
+      <div class="container section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">Our menu</p>
+          <h2>Simple, seasonal dishes made to share.</h2>
+          <p class="section-intro">
+            Our menu changes regularly to showcase the best of each season. Below is a
+            sample of what we are currently serving.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Starters -->
+          <article class="menu-column">
+            <h3>Starters</h3>
+
+            <div class="menu-item">
+              <div>
+                <h4>Roasted Beet Salad</h4>
+                <p class="menu-description">
+                  Goat cheese, candied walnuts, baby greens, citrus vinaigrette.
+                </p>
+              </div>
+              <span class="menu-price">34 lei</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <h4>Smoked Tomato Soup</h4>
+                <p class="menu-description">
+                  Basil oil, grilled sourdough, crème fraîche.
+                </p>
+              </div>
+              <span class="menu-price">28 lei</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <h4>Crispy Calamari</h4>
+                <p class="menu-description">
+                  Garlic aioli, charred lemon, chili flakes.
+                </p>
+              </div>
+              <span class="menu-price">39 lei</span>
+            </div>
+          </article>
+
+          <!-- Mains -->
+          <article class="menu-column">
+            <h3>Mains</h3>
+
+            <div class="menu-item">
+              <div>
+                <h4>Herb‑Crusted Salmon</h4>
+                <p class="menu-description">
+                  Lemon butter sauce, roasted potatoes, seasonal vegetables.
+                </p>
+              </div>
+              <span class="menu-price">72 lei</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <h4>Wood‑Fired Chicken</h4>
+                <p class="menu-description">
+                  Garlic mash, glazed carrots, rosemary jus.
+                </p>
+              </div>
+              <span class="menu-price">68 lei</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <h4>Wild Mushroom Risotto (V)</h4>
+                <p class="menu-description">
+                  Aged parmesan, truffle oil, fresh herbs.
+                </p>
+              </div>
+              <span class="menu-price">64 lei</span>
+            </div>
+          </article>
+
+          <!-- Desserts -->
+          <article class="menu-column">
+            <h3>Desserts</h3>
+
+            <div class="menu-item">
+              <div>
+                <h4>Dark Chocolate Fondant</h4>
+                <p class="menu-description">
+                  Warm center, vanilla bean ice cream, cocoa crumble.
+                </p>
+              </div>
+              <span class="menu-price">32 lei</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <h4>Citrus Cheesecake</h4>
+                <p class="menu-description">
+                  Lemon curd, berry coulis, almond crust.
+                </p>
+              </div>
+              <span class="menu-price">30 lei</span>
+            </div>
+
+            <div class="menu-item">
+              <div>
+                <h4>Seasonal Fruit Tart</h4>
+                <p class="menu-description">
+                  Pastry cream, glazed fruit, pistachio dust.
+                </p>
+              </div>
+              <span class="menu-price">29 lei</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="menu-note">
+          Please inform your server of any allergies or dietary requirements. Vegetarian
+          and gluten‑free options are available.
+        </p>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+      <div class="container section-inner">
+        <div class="section-header">
+          <p class="section-eyebrow">Guest impressions</p>
+          <h2>What our guests are saying.</h2>
+          <p class="section-intro">
+            We are grateful for the kind words from our regulars and first‑time visitors.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              “From the moment we walked in, we felt taken care of. The staff was
+              attentive without being intrusive, and every course was perfectly timed.”
+            </p>
+            <p class="testimonial-name">Andrei P.</p>
+            <p class="testimonial-meta">Business dinner • February 2026</p>
+          </article>
+
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              “The menu is creative yet comforting. The wild mushroom risotto might be
+              the best I have had in Suceava.”
+            </p>
+            <p class="testimonial-name">Ioana M.</p>
+            <p class="testimonial-meta">Date night • January 2026</p>
+          </article>
+
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              “Beautiful atmosphere, excellent wine list, and a team that genuinely
+              loves what they do. Rustic Table has become our go‑to place for family
+              celebrations.”
+            </p>
+            <p class="testimonial-name">Familia Ionescu</p>
+            <p class="testimonial-meta">Family celebration • December 2025</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container section-inner contact-inner">
+        <div class="contact-info">
+          <p class="section-eyebrow">Contact & reservations</p>
+          <h2>We would love to host you.</h2>
+          <p>
+            For table reservations, private events, or special requests, please fill in
+            the form or reach out using the details below. We respond to all inquiries
+            within one business day.
+          </p>
+
+          <ul class="contact-details">
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+40700111222">+40 700 111 222</a>
+            </li>
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:hello@rustictable.ro">hello@rustictable.ro</a>
+            </li>
+            <li>
+              <span class="contact-label">Address</span>
+              <span>Strada Principală 15, Suceava, România</span>
+            </li>
+            <li>
+              <span class="contact-label">Hours</span>
+              <span>Tue – Thu: 12:00 – 22:00 • Fri – Sat: 12:00 – 23:00 • Sun: 12:00 – 21:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>Reserve a table</h3>
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+                <small class="error-message"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="date">Preferred date</label>
+                <input type="date" id="date" name="date">
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="time">Preferred time</label>
+                <input type="time" id="time" name="time">
+                <small class="error-message"></small>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="guests">Number of guests</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" placeholder="2">
+                <small class="error-message"></small>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message (optional)</label>
+              <textarea id="message" name="message" rows="4"
+                placeholder="Let us know about any allergies, occasions, or preferences."></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button type="submit" class="btn primary-btn full-width">Submit request</button>
+            <p class="form-note" id="form-note">
+              This form is for reservation requests only. We will confirm by phone or email.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rustic Table. All rights reserved.</p>
+      <p class="footer-credit">Website crafted for portfolio purposes.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
